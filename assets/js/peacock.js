@@ -121,12 +121,12 @@ jQuery(document).ready(function($){
     // google maps script
     $('#google-map').gMap({
 
-        address: '6 Loudon Road, Suite 202 Concord, NH 03301',
+        address: '602 North Calgary Court, Suite 201, Post Falls, ID 83854',
         maptype: 'ROADMAP',
         zoom: 16,
         markers: [
             {
-                address: "6 Loudon Road, Suite 202 Concord, NH 03301",
+                address: "602 North Calgary Court, Suite 201, Post Falls, ID 83854",
                 icon: {
                     image: "assets/images/icons/map-icon-red.png",
                     iconsize: [32, 39],
