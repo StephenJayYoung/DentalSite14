@@ -556,6 +556,128 @@ section#specials {
 	}
 }
 
+/** MEMBERS OVERRIDES */
+section#members {
+	margin-top: 0px;
+	padding-top: 60px;
+	margin-bottom: 0;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e8e8e8;
+	background-color: #50848f !important; 
+}
+
+.pricing-box.pricing-extended .pricing-action-area {
+    padding: 27px !important;
+}
+
+section#members .heading-block h2{
+		color: #fff !important;
+}
+
+section#members .heading-block span{
+		color: #fff !important;
+}
+
+.dark .pricing-box.pricing-extended .pricing-action-area {
+    background-color: #ede6d9;
+}
+
+.pricing-box.pricing-extended {
+    background-color: #FFF !important;
+}
+
+.icon-ok:before {
+    color: #e36314;
+}
+
+.pricing-box {
+	border-radius: 1em;
+	color: #ffffff !important;
+}
+
+.pricingIconText{
+	color: #ffffff !important;
+}
+
+.members-pricing .price-unit{
+	color: #ffffff !important;
+}
+
+#members-sign {
+	color: #1f1b18 !important;
+}
+
+#members-month {
+	color: #1f1b18 !important;
+}
+
+.members-pricing strong {
+	color: #1f1b18 !important;
+}
+
+.price-tenure {
+	color: #1f1b18 !important;
+
+}
+
+.dark .pricing-box.pricing-extended .pricing-meta {
+    color: #ee2737 !important;
+}
+
+.dark .pricing-title {
+    border-bottom-color: #000;
+}
+
+.dark .pricing-box.pricing-extended .pricing-meta {
+    color: #1f1b18 !important;
+}
+
+.pricing-box.pricing-extended .pricing-features li {
+  color: #1f1b18 !important;
+}
+
+.pricing-box.pricing-extended .pricing-action-area {
+	background-color: #1ABC9C;
+	color: #ffffff;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em !important;
+	border-bottom-left-radius: 0em !important;
+}
+
+@media (min-width: 991px) {
+	.pricing-box.pricing-extended .pricing-action-area {
+    background-color: #1ABC9C;
+    color: #ffffff;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em !important;
+    border-bottom-left-radius: 0em !important;
+	}
+}
+
+@media (max-width: 990px){
+	.pricing-box.pricing-extended .pricing-action-area {
+    background-color: #1ABC9C;
+    color: #ffffff;
+    border-top-right-radius: 0em;
+    border-bottom-right-radius: 1em !important;
+    border-bottom-left-radius: 1em !important;
+	}
+}
+
+.pricing-box.pricing-extended .pricing-meta, .pricing-price, .pricing-price span, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure {
+	color: #ffffff;
+}
+
+#members a.button {
+/*	border-bottom: 3px solid rgba(0,0,0,0.15);*/
+	background-color: #e36314 !important;
+	color: #ffffff;
+}
+
+.button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover {
+	background-color: #e38d77 !important;;
+}
+
 /** REVIEWS OVERRIDES */
 #reviews{
 	background: url('../images/reviews-background.jpg') 50% 0% no-repeat;
