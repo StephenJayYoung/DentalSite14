@@ -1370,12 +1370,12 @@ input, select, textarea {
 /*CUSTOM BUTTON COLOR/MODAL COLORS*/
 
 .button{
-	background-color: #c04355 !important;
+	background-color: #ee19b4  !important;
 	font-family: "Open Sans", serif;
 }
 
 .button:hover{
-	background-color: #9c3241 !important;
+	background-color: #7c125f !important;
 	font-family: "Open Sans", serif;
 }
 
