@@ -781,6 +781,23 @@ box-sizing: border-box;
 	background-color: #7c125f !important;
 }
 
+.forms-border{
+	border-right: 1px solid #fff;
+	height: 140px;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+		.forms-border{
+		border-right: 1px solid #fff;
+		height: 180px;
+	}
+}
+
+@media (max-width: 767px){
+		.forms-border{
+		border-right: none !important;
+	}
+}
 
 .resources-border-1{
 	border-right: 1px solid #000;
