@@ -292,6 +292,39 @@ nav#primary-menu.statick-sticky > ul{
 	}
 }
 
+@media (min-width: 768px) and (max-width:990px){
+
+		.girl-image {
+		    width: 82%;
+		    max-width: 82%;
+		}
+		.bio-image {
+	    width: 142%;
+	    max-width: 143%;
+		}
+
+		.team-text {
+	    font-size: 13px;
+	}
+
+	.number-one-text{
+		font-size: 20px !important;
+	}
+}
+
+@media (max-width: 768px){
+
+	.bio-image {
+  	width: 100%;
+  	max-width: 100%;
+  	margin-bottom: 20px;
+  	padding-top: 0px !important;
+	}
+
+}
+
+
+
 
 #doctors{padding-top:30px;background-color:#efefe9;}
 #paul-coombs{padding-top:30px;}
@@ -306,7 +339,7 @@ nav#primary-menu.statick-sticky > ul{
 /*.device-xxs #team img{margin-bottom:10px;}*/
 /*#team hr{border-top:1px solid #ddd;}*/
 
-
+/*
 @media (min-width: 991px) and (max-width: 1199px){
 .bio-image{width: 145%; max-width: 145%;}
 .col-sm-push-3 {left: 30%;}
@@ -324,7 +357,7 @@ nav#primary-menu.statick-sticky > ul{
 
 @media (min-width: 100px) and (max-width: 479px){
 .bio-image{width: 140%; max-width: 140%; padding-right: 15px;}
-}
+}*/
 /*
 @media (min-width:1200px) {
 .team-image{
