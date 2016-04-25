@@ -1236,6 +1236,7 @@ address {
 /*  background-color: #797874 !important;*/
   background: url('../images/footer-background.jpg') 50% 0% no-repeat;
   color: #9b9992 !important;
+  height: 260px;
 }
 
 .social-icon i {
