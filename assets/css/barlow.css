@@ -277,6 +277,22 @@ nav#primary-menu.statick-sticky > ul{
 .bio-image{width: 125%; max-width: 125%;}
 
 
+@media (min-width: 991px) and (max-width:1199px){
+		.girl-image {
+		    width: 85%;
+		    max-width: 85%;
+		}
+		.bio-image {
+		    width: 135%;
+		    max-width: 135%;
+		}
+
+		.team-text {
+	    font-size: 14px;
+	}
+}
+
+
 #doctors{padding-top:30px;background-color:#efefe9;}
 #paul-coombs{padding-top:30px;}
 #william-ross{background-color:#fff8eb; padding-top:30px;}
