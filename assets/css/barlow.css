@@ -10,7 +10,7 @@
 /** MENU OVERRIDES */
 
 body{
-	color: #797874 !important;
+	color: #555!important;
 /*	background-color: #f4f9f9;
 */	font-family: "kepler-std-display", serif !important;
 	font-size: 17px;
@@ -21,13 +21,13 @@ a {
 }
 
 h2 {
-    color: #027d82;
+    color: #004e00;
     font-family: "kepler-std-display", serif;
     font-weight: 700 !important;
 }
 
 h3, h4, h5, h6 {
-    color: #797874;
+    color: #555;
     font-family: "kepler-std-display", serif;
 }
 
@@ -221,15 +221,15 @@ nav#primary-menu.statick-sticky > ul{
 
 /** ACTIONS OVERRIDES */
 
-#actions{padding:20px 0;background-color:#252a2e;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
+#actions{padding:20px 0;background-color:#fff;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
 .device-xxs #actions{padding:10px 0;}
-#actions h3{color:#fff !important;font-size:16px;margin-bottom:0;}
+#actions h3{color:#000 !important;font-size:16px;margin-bottom:0;}
 #actions h3 a{display:block;color:#000;font-size:2.5em;line-height:1;font-family: "Open Sans";text-shadow:1px 1px 1px rgba(0,0,0,.4);}
 .device-xs #actions h3 a,
 .device-xxs #actions h3 a{font-size:2em;}
 #actions p,
-#actions span{color:#fff;margin-top:8px;}
-#actions span a{color:#fcb426;}
+#actions span{color:#000;margin-top:8px;}
+#actions span a{color:#ee19b4;}
 #actions a.button{height:auto !important;padding:5px 20px !important; font-family: "Open Sans", serif;}
 #actions .phone-numbers{border-right:1px solid #000;padding-right:20px;text-align:right;}
 #actions .schedule-online{border-left:1px solid rgba(0, 0, 0, .1);padding-left:20px;text-align:left;}
@@ -237,9 +237,9 @@ nav#primary-menu.statick-sticky > ul{
 .device-xs #actions .schedule-online:not(.close),
 .device-xxs #actions .phone-numbers,
 .device-xxs #actions .schedule-online{border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
-#actions .schedule-online a.button{background-color:#fcb426  !important;font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
-#actions .schedule-online a.button{background-color:#fcb426  !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
-#actions .schedule-online a.button:hover{background-color:#c79229 !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#actions .schedule-online a.button{background-color:#ee19b4 !important;font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#actions .schedule-online a.button{background-color:#ee19b4  !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#actions .schedule-online a.button:hover{background-color:#7c125f !important; font-family: "Open Sans", serif;color:#fff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
 
 .device-xs #actions .schedule-online a.button, .device-xxs #actions .schedule-online a.button {
     font-size: 15px;
@@ -258,11 +258,11 @@ nav#primary-menu.statick-sticky > ul{
 /** TEAM OVERRIDES */
 
 /*#team{
-	background-color: #efefe9;
+	background-color: #b6d049;
 	padding-top: 40px;
 	line-height: 1.5 !important;
-}
-*/
+}*/
+
 /** TEAM OVERRIDES */
 
 .team-text{
@@ -282,7 +282,7 @@ nav#primary-menu.statick-sticky > ul{
 #william-ross{background-color:#fff8eb; padding-top:30px;}
 #paul-coombs{background-color:#ede6d9;}
 .bio-image{vertical-align:bottom;}
-#team{background-color:#ede6d9;padding-top: 60px;}
+#team{background-color:#b6d049;padding-top: 60px;}
 .device-xxs .col-xs-6{width:170%;display:block;float:none;max-width:200px;margin:0 auto;}
 .device-xxs hr{display:none;}
 .device-xs #team img,
@@ -374,7 +374,7 @@ section#specials {
 	border-top: 1px solid rgba(0, 0, 0, .15);
 	margin-top: 0;
 	padding-top: 60px;
-	background-color: #fff;
+	background-color: #0066cc;
 	color:;
 }
 
@@ -655,7 +655,7 @@ section#services {
 	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-color: #efefe9 !important;
+	background-color: #b6d049 !important;
 }
 
 .click-for-info{
@@ -717,7 +717,7 @@ section#tour {
 /*	margin-top: -40px;*/
   padding-top: 30px;
   padding-bottom: 40px;
-	background-color: #252a2e !important;
+	background-color: #efeee2 !important;
 }
 
 .tour-text{
@@ -762,17 +762,18 @@ box-sizing: border-box;
 
 /** RESOURCES OVERRIDES */
 
-#resources{
-	padding-top: 30px;
+#forms{
+	padding-top: 40px;
 	padding-bottom: 30px;
-	background-color: #fff;
+	background-color: #0066cc !important;
+	color: #fff;
 }
 
-#resources .button{
+#forms .button{
 	background-color: #027d82 !important;
 }
 
-#resources .button:hover{
+#forms .button:hover{
 	background-color: #0b5f62 !important;
 }
 
@@ -882,6 +883,7 @@ section#location {
 
 .fax{
 	font-size: 19px;
+	color: #000;
 }
 
 .directions{
@@ -898,7 +900,7 @@ section#location {
     padding: 6px 10px;
     border-bottom: 1px solid rgba(0, 0, 0, .25);
     font-size: 20px;
-    color: #797874 !important;
+    color: #000 !important;
 }
 
 #location td {
@@ -1048,39 +1050,39 @@ address {
 
 .address-text{
 	margin-bottom: 14px !important;
-	color: #797874
+	color: #000;
 }
 
 .new-patients{
 	font-size: 28px;
 	margin-top: 15px;
-	color: #797874;
+	color: #000;
 }
 
 .new-patients a{
 	font-size: 35px;
-	color: #c04355;
+	color: #ee19b4; 
 	font-family: sans-serif;
 }
 
 #location p.new-patient-hotline, #location p.existing-patients {
 	font-size: 25px;
-	color: #797874;
+	color: #000;
 	margin-bottom: 35px !important;
 }
 
 #location .button{
-	background-color: #c04355 !important;
+	background-color: #ee19b4 !important;
 }
 
 #location .button:hover{
-	background-color: #9c3241  !important;
+	background-color: #7c125f  !important;
 }
 
 .hours-headline{
 	margin-top:-10px !important;
 	font-size: 28px;
-	color: #797874 !important;
+	color: #000 !important;
 }
 
 .hours-text{
@@ -1091,12 +1093,12 @@ address {
 
 .hours-table{
 	margin-top: 25px;
-	color: #797874
+	color: #000;
 }
 
 
 .click-for-address{
-	color: #c04355 !important;
+	color: #ee19b4  !important;
 	font-size: 20px !important;
 }
 
@@ -1130,7 +1132,7 @@ address {
 
 .existing-patients a{
 	font-size: 25px;
-	color: #c04355;
+	color: #ee19b4; 
 	font-family: sans-serif;
   padding: 0px !important;
 }
