@@ -270,9 +270,12 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 .girl-image{
-	width: 75;
-  max-width: 75%;
+	width: 70%;
+  max-width: 70%;
 }
+
+.bio-image{width: 125%; max-width: 125%;}
+
 
 #doctors{padding-top:30px;background-color:#efefe9;}
 #paul-coombs{padding-top:30px;}
@@ -287,7 +290,6 @@ nav#primary-menu.statick-sticky > ul{
 /*.device-xxs #team img{margin-bottom:10px;}*/
 /*#team hr{border-top:1px solid #ddd;}*/
 
-.bio-image{width: 103%; max-width: 103%;}
 
 @media (min-width: 991px) and (max-width: 1199px){
 .bio-image{width: 145%; max-width: 145%;}
