@@ -1017,7 +1017,7 @@ label.error { display: none !important; }
 
 	.address-border-1{
 		border-right: 1px solid #000;
-		height: 320px;
+		height: 370px;
 	}
 
 	.hours-text {
@@ -1047,7 +1047,7 @@ label.error { display: none !important; }
 }
 
 address {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	margin-top: 10px;
 /*	margin-bottom: 30px;*/
 }
@@ -1058,7 +1058,7 @@ address {
 }
 
 .new-patients{
-	font-size: 28px;
+	font-size: 27px;
 	margin-top: 15px;
 	color: #000;
 }
@@ -1092,7 +1092,8 @@ address {
 .hours-text{
 	font-size: 22px;
 	margin-top: 20px;
-	color: #797874 !important;
+	color: #000 !important;
+	font-family: "Lato", sans-serif !important;
 }
 
 .hours-table{
