@@ -141,11 +141,11 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 #primary-menu > ul > li.current a {
-	color: #797874 !important;
+	color: #ee19b4 !important;
 }
 
 #primary-menu > ul > li a:hover {
-	color: #c04355  !important;
+	color: #ee19b4  !important;
 }
 
 #header.full-header #primary-menu > ul {
@@ -155,20 +155,20 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 #primary-menu > ul > li.current a {
-    color: #797874 !important;
+    color: #555 !important;
     text-decoration: none !important;
 }
 
 #primary-menu ul li a {
-    color: #797874;
+    color: #555;
 }
 
 #primary-menu > ul > li.current a:hover{
-    color: #c04355  !important;
+    color: #ee19b4  !important;
 }
 
 #primary-menu > ul > li a:hover{
-    color: #c04355 !important;
+    color: #ee19b4 !important;
 }
 
 #primary-menu ul li a {
@@ -185,7 +185,7 @@ nav#primary-menu.statick-sticky > ul{
 
 @media (max-width: 991px) {
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li.current a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a {
-    color: #c04355 !important;
+    color: #ee19b4 !important;
 	}
 }
 
@@ -393,15 +393,15 @@ section#specials {
 }
 
 .pricing-title {
-    background-color: #c04355;
+    background-color: #efeee2;
 }
 
 .pricing-title h3 {
-	color: #ffffff;
+	color: #0066cc;
 }
 
 .pricing-box.pricing-extended .pricing-meta, .pricing-price, .pricing-price span, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure {
-    color: #252a2e !important;
+    color: #0066cc !important;
 }
 
 #pricing-box-one{
@@ -409,7 +409,7 @@ section#specials {
 }
 
 #professional-smile-whitening .pricing-title {
-	background-color: #c04355 !important;
+	background-color: #efeee2 !important;
 }
 
 .dark .pricing-box, .dark .pricing-box.best-price {
@@ -464,7 +464,7 @@ section#specials {
 }
 
 .price-save{
-	color: #252a2e !important;
+	color: #0066cc !important;
 }
 
 .d-codes{
@@ -502,7 +502,7 @@ section#members {
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	border-bottom: 1px solid #e8e8e8;
-	background-color: #50848f !important; 
+	background-color: #222 !important; 
 }
 
 .pricing-box.pricing-extended .pricing-action-area {
@@ -518,7 +518,7 @@ section#members .heading-block span{
 }
 
 .dark .pricing-box.pricing-extended .pricing-action-area {
-    background-color: #ede6d9;
+    background-color: #fff;
 }
 
 .pricing-box.pricing-extended {
@@ -526,7 +526,7 @@ section#members .heading-block span{
 }
 
 .icon-ok:before {
-    color: #e36314;
+    color: #ee19b4;
 }
 
 .pricing-box {
@@ -609,12 +609,12 @@ section#members .heading-block span{
 
 #members a.button {
 /*	border-bottom: 3px solid rgba(0,0,0,0.15);*/
-	background-color: #e36314 !important;
+	background-color: #ee19b4 !important;
 	color: #ffffff;
 }
 
 .button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover {
-	background-color: #e38d77 !important;;
+	background-color: #7c125f !important;;
 }
 
 /** REVIEWS OVERRIDES */
@@ -659,7 +659,7 @@ section#services {
 }
 
 .click-for-info{
-	color: #797874 !important;
+	color: #000 !important;
 	font-size: 13px;
 }
 
@@ -727,6 +727,10 @@ section#tour {
 	margin-top: -30px;
 }
 
+.owl-theme .owl-dots .owl-dot span {
+    background-color: #ee19b4;
+}
+
 .entry {
      border-bottom: none; 
 }
@@ -755,7 +759,7 @@ box-sizing: border-box;
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
-    background-color: #fcb426 !important;
+    background-color: #ee19b4 !important;
     color: #FFF !important;
     text-decoration: none;
 }
@@ -770,11 +774,11 @@ box-sizing: border-box;
 }
 
 #forms .button{
-	background-color: #027d82 !important;
+	background-color: #ee19b4 !important;
 }
 
 #forms .button:hover{
-	background-color: #0b5f62 !important;
+	background-color: #7c125f !important;
 }
 
 
@@ -1304,5 +1308,5 @@ input, select, textarea {
 }
 
 #gotoTop:hover {
-    background-color: #fcb426 !important;
+    background-color: #ee19b4 !important;
 }
