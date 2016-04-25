@@ -793,9 +793,10 @@ box-sizing: border-box;
 		border-bottom: 1px solid #000;
 	}
 
-	.reg-form-text{
+/*	.reg-form-text{
 		margin-top: 20px;
-	}
+		padding-bottom: 30px;
+	}*/
 
 	.patient-financing-text{
 		margin-top: 20px;
@@ -877,6 +878,10 @@ section#location {
     margin: 0 auto;
     z-index: 10;
     border-radius: 4px;
+}
+
+.fax{
+	font-size: 19px;
 }
 
 .directions{
@@ -994,12 +999,12 @@ label.error { display: none !important; }
 
 .address-border-1{
 	border-right: 1px solid #000;
-	height: 340px;
+	height: 345px;
 }
 
 .address-border-2{
 	border-right: 1px solid #000;
-		height: 340px;
+		height: 345px;
 }
 
 @media(min-width:767px) and (max-width: 990px){
