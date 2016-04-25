@@ -264,6 +264,16 @@ nav#primary-menu.statick-sticky > ul{
 }
 */
 /** TEAM OVERRIDES */
+
+.team-text{
+	font-size: 15px;
+}
+
+.girl-image{
+	width: 75;
+  max-width: 75%;
+}
+
 #doctors{padding-top:30px;background-color:#efefe9;}
 #paul-coombs{padding-top:30px;}
 #william-ross{background-color:#fff8eb; padding-top:30px;}
