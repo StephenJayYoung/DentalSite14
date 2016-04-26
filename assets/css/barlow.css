@@ -26,6 +26,12 @@ h2 {
     font-weight: 700 !important;
 }
 
+@media (max-width: 480px){
+	h2 {
+		line-height: 1.2;
+	}
+}
+
 h3, h4, h5, h6 {
     color: #555;
     font-family: 'Bitter', serif;
@@ -119,13 +125,13 @@ nav#primary-menu.statick-sticky > ul{
 }
 
 .button:hover {
-		font-family: "Open Sans", serif;
+		font-family:'Lato', sans-serif;
     background-color: #0b5f62 !important;
     color: #fff !important;
 }
 
 .button.button-3d:hover{
-		font-family: "Open Sans", serif;
+		font-family:'Lato', sans-serif;
     background-color: #9c3241 !important;
     color: #fff !important;
 }
@@ -221,25 +227,25 @@ nav#primary-menu.statick-sticky > ul{
 
 /** ACTIONS OVERRIDES */
 
-#actions{padding:20px 0;background-color:#fff;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
+#actions{padding:20px 0;background-color:#fff;}
 .device-xxs #actions{padding:10px 0;}
 #actions h3{color:#000 !important;font-size:16px;margin-bottom:0;}
-#actions h3 a{display:block;color:#000;font-size:2.5em;line-height:1;font-family: "Open Sans";text-shadow:1px 1px 1px rgba(0,0,0,.4);}
+#actions h3 a{display:block;color:#000;font-size:2.5em;line-height:1;font-family:'Lato', sans-serif;}
 .device-xs #actions h3 a,
 .device-xxs #actions h3 a{font-size:2em;}
 #actions p,
 #actions span{color:#000;margin-top:8px;}
 #actions span a{color:#ee19b4;}
-#actions a.button{height:auto !important;padding:5px 20px !important; font-family: "Open Sans", serif;}
+#actions a.button{height:auto !important;padding:5px 20px !important; font-family:'Lato', sans-serif;}
 #actions .phone-numbers{border-right:1px solid #000;padding-right:20px;text-align:right;}
 #actions .schedule-online{border-left:1px solid rgba(0, 0, 0, .1);padding-left:20px;text-align:left;}
 .device-xs #actions .phone-numbers,
 .device-xs #actions .schedule-online:not(.close),
 .device-xxs #actions .phone-numbers,
 .device-xxs #actions .schedule-online{border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
-#actions .schedule-online a.button{background-color:#ee19b4 !important;font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
-#actions .schedule-online a.button{background-color:#ee19b4  !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
-#actions .schedule-online a.button:hover{background-color:#7c125f !important; font-family: "Open Sans", serif;color:#fff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#actions .schedule-online a.button{background-color:#ee19b4 !important;font-family:'Lato', sans-serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#actions .schedule-online a.button{background-color:#ee19b4  !important; font-family:'Lato', sans-serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#actions .schedule-online a.button:hover{background-color:#7c125f !important; font-family:'Lato', sans-serif;color:#fff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
 
 .device-xs #actions .schedule-online a.button, .device-xxs #actions .schedule-online a.button {
     font-size: 15px;
@@ -264,6 +270,10 @@ nav#primary-menu.statick-sticky > ul{
 }*/
 
 /** TEAM OVERRIDES */
+
+	.number-one-text{
+		color: #004e00;;
+	}
 
 .team-text{
 	font-size: 15px;
@@ -505,7 +515,7 @@ section#specials {
 
 .pricing-price {
     font-weight: bold;
-    font-family: "Open Sans";
+    font-family:'Lato', sans-serif;
 }
 
 .dark .pricing-price, .pricing-box.best-price .pricing-price, .pricing-features li, .pricing-box p, .dark .pricing-box.best-price .price-unit, .dark .pricing-box .price-unit {
@@ -949,9 +959,9 @@ section#location {
 	border-top: .5px solid #1f1b18;
 }
 
-#location .schedule-online a.button{background-color:#fcb426  !important;font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
-#location .schedule-online a.button{background-color:#fcb426  !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
-#location .schedule-online a.button:hover{background-color:#c79229 !important; font-family: "Open Sans", serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#location .schedule-online a.button{background-color:#fcb426  !important;font-family:'Lato', sans-serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#location .schedule-online a.button{background-color:#fcb426  !important; font-family:'Lato', sans-serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
+#location .schedule-online a.button:hover{background-color:#c79229 !important; font-family:'Lato', sans-serif;color:#ffffff;opacity:1;text-shadow:none !important;text-decoration:none !important;}
 
 #contact-form {
     position: relative;
@@ -1045,7 +1055,7 @@ user agent stylesheettd, th {
 
 .hours-oncall a{
 	color: #1f1b18;
-	font-family: "Open Sans";
+	font-family:'Lato', sans-serif;
 }
 
 @media (max-width: 480px) {
@@ -1371,12 +1381,12 @@ input, select, textarea {
 
 .button{
 	background-color: #ee19b4  !important;
-	font-family: "Open Sans", serif;
+	font-family:'Lato', sans-serif;
 }
 
 .button:hover{
 	background-color: #7c125f !important;
-	font-family: "Open Sans", serif;
+	font-family:'Lato', sans-serif;
 }
 
 .portfolio-overlay a.center-icon {
