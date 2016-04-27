@@ -701,13 +701,6 @@ section#members .heading-block span{
   padding-bottom: 30px;
 }
 
-
-/*@media (max-width: 480px){
-	#reviews-wrapper{
-		max-height: 650px;
-	}
-}*/
-
 .birdeye-text{
 	color: #fff !important;
 }
@@ -730,6 +723,15 @@ section#members .heading-block span{
 .subtitle-one:hover{
 	color: #1f1b18 !important; 
 	text-decoration: underline !important;
+}
+
+@media (max-width:768px){
+	section#reviews {
+		padding-top:10px;
+		padding-bottom:10px;
+		background-image:none;
+		background-size:cover;
+	}
 }
 
 /** SERVICES OVERRIDES */
@@ -1205,7 +1207,7 @@ section#location {
 
 .fax{
 	font-size: 19px;
-	color: #000;
+	color: #000 !important;
 }
 
 .directions{
