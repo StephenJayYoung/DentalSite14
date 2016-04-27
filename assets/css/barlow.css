@@ -454,12 +454,12 @@ section#specials {
 }
 
 .pricing-title {
-    background-color: #efeee2;
+    background-color: #35c8f8;
     text-shadow: none !important;
 }
 
 .pricing-title h3 {
-	color: #35c8f8;
+	color: #fff;
 }
 
 .pricing-box.pricing-extended .pricing-meta, .pricing-price, .pricing-price span, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure {
@@ -471,7 +471,7 @@ section#specials {
 }
 
 #professional-smile-whitening .pricing-title {
-	background-color: #efeee2 !important;
+	background-color: #35c8f8 !important;
 }
 
 .dark .pricing-box, .dark .pricing-box.best-price {
