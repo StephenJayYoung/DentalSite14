@@ -307,6 +307,8 @@ nav#primary-menu.statick-sticky > ul{
 		.girl-image {
 		    width: 82%;
 		    max-width: 82%;
+		    padding-top: 0px !important;
+		    padding-bottom: 0px !important;
 		}
 		.bio-image {
 	    width: 142%;
@@ -453,10 +455,11 @@ section#specials {
 
 .pricing-title {
     background-color: #efeee2;
+    text-shadow: none !important;
 }
 
 .pricing-title h3 {
-	color: #0066cc;
+	color: #35c8f8;
 }
 
 .pricing-box.pricing-extended .pricing-meta, .pricing-price, .pricing-price span, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure {
@@ -702,8 +705,8 @@ section#members .heading-block span{
 }
 
 .reviews-header{
-	color: #fff !important; 
-	text-shadow: 1px 1px #fff !important;
+	color: #004e00!important;
+	text-shadow: -2px 2px #fff !important;
 }
 
 #reviews table.rad{box-sizing:border-box;display:block;max-height:640px;overflow-y:scroll;border:2px solid rgba(0, 0, 0, .05);border-bottom:none;}
@@ -725,8 +728,8 @@ section#members .heading-block span{
 section#services {
 	margin-top: 0;
 	padding-top: 60px;
-	margin-bottom: 0;
-	padding-bottom: 30px;
+	margin-bottom: 0px !important;
+/*	padding-bottom: 30px;*/
 	background-color: #b6d049 !important;
 }
 
@@ -792,6 +795,10 @@ section#tour {
 	background-color: #efeee2 !important;
 }
 
+.boxed-slider {
+	padding-top: 0px;
+}
+
 .tour-text{
 	font-size: 18px;
 	color: #000 !important;
@@ -836,7 +843,70 @@ box-sizing: border-box;
     text-decoration: none;
 }
 
-/** RESOURCES OVERRIDES */
+/*REWARDS OVERRRIDES*/
+
+#rewards{
+	padding-top: 30px;
+}
+
+.ticket-image-background-one{
+	background: url('../images/ticket-image-ped.jpeg') 100% 5%;
+	z-index: 1;
+	padding: 25px;
+/*	margin: 10px;*/
+}
+
+.ticket-image-background-two{
+	background: url('../images/ticket-image-ped.jpeg') 100% 5%;
+	z-index: 1;
+	padding: 25px;
+/*	margin-right: 3px;*/
+}
+
+#ways-to-earn-table th, #ways-to-earn-table td{
+	margin-top: -30px;
+  padding: 15px 10px;
+  border-bottom: 1px solid #000;
+  font-size: 20px;
+  color: #000 !important;
+  border-top: 1px solid #000;
+/*  background-color: #35c8f8;;*/
+}
+
+#ways-to-earn-table td {
+    text-align: right;
+    border-right: 1px solid #000;
+}
+
+#ways-to-earn-table th {
+	text-align: left;
+	border-left: 1px solid #000;
+
+}
+
+#rewards-table th, #rewards-table td{
+	margin-top: -30px;
+  padding: 6px 10px;
+  border-bottom: 1px solid #000;
+  font-size: 20px;
+  color: #000 !important;
+  border-top: 1px solid #000;
+/*  background-color: #35c8f8;;*/
+}
+
+#rewards-table td {
+    text-align: right;
+    border-right: 1px solid #000;
+}
+
+#rewards-table th {
+	text-align: left;
+	border-left: 1px solid #000;
+
+}
+
+
+/** FORMS OVERRIDES */
 
 #forms{
 	padding-top: 40px;
@@ -951,7 +1021,7 @@ box-sizing: border-box;
 
 /** CONTACT OVERRIDES */
 section#location {
-	padding-top: 40px;
+	padding-top: 0px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
@@ -1069,11 +1139,13 @@ max-height: 100px;
 max-width: 100px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 480px) {
 #google-map{
-	max-height: 450px;
+	max-height: 300px;
 	}
 }
+
+
 
 #mobileLogo{
 	max-height: 250px;
