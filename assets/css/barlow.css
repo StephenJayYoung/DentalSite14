@@ -509,7 +509,7 @@ section#specials {
 .pricing-features li {
 	font-size: 1.5em;
 	font-weight: bold;
-	font-family: 'Gentium Book Basic', serif;
+	font-family:'Lato', sans-serif;
 }
 
 .dark .pricing-price, #new-childrens-cleaning-exam .pricing-price {
@@ -855,25 +855,23 @@ box-sizing: border-box;
 #rewards{
 	padding-top: 30px;
 	background-color: #73a427;
+	padding-bottom: 0px !important;
+	margin-bottom: 0px !important;
 }
 
 .ticket-image-background-one{
-/*	background: url('../images/ticket-image-ped.jpeg') 100% 5%;
-*/	z-index: 1;
+	z-index: 1;
 	padding: 25px;
-/*	margin: 10px;*/
 }
 
 .ticket-image-background-two{
-/*	background: url('../images/ticket-image-ped.jpeg') 100% 5%;
-*/	z-index: 1;
+	z-index: 1;
 	padding: 25px;
-/*	margin-right: 3px;*/
 }
 
 .offer-ticket{
 	box-sizing: border-box;
-    font-family: Arial;
+    font-family:'Lato', sans-serif;
     font-size: 12px;
     font-weight: bold;
     position: relative !important;
@@ -886,7 +884,7 @@ box-sizing: border-box;
 
 }
 
-.offer-ticket{box-sizing:border-box;font-family:Arial;font-size:12px;font-weight:bold;position:relative !important;padding:30px;margin:0;border-top:2px #73a427 dashed;border-bottom:2px #73a427 dashed;}
+.offer-ticket{box-sizing:border-box;font-family:'Lato', sans-serif;font-size:12px;font-weight:bold;position:relative !important;padding:30px;margin:0;border-top:2px #73a427 dashed;border-bottom:2px #73a427 dashed;}
 
 .offer-ticket:before {
     content: "";
@@ -947,7 +945,7 @@ box-sizing: border-box;
 	margin-top: -30px;
   padding: 15px 10px;
   border-bottom: 1px solid #000;
-  font-size: 20px;
+  font-size: 18px;
   color: #000 !important;
   border-top: 1px solid #000;
 /*  background-color: #35c8f8;;*/
@@ -966,12 +964,11 @@ box-sizing: border-box;
 
 #rewards-table th, #rewards-table td{
 	margin-top: -30px;
-  padding: 6px 10px;
+  padding: 7px 10px;
   border-bottom: 1px solid #000;
-  font-size: 20px;
+  font-size: 19px;
   color: #000 !important;
   border-top: 1px solid #000;
-/*  background-color: #35c8f8;;*/
 }
 
 #rewards-table td {
@@ -984,6 +981,87 @@ box-sizing: border-box;
 	border-left: 1px solid #000;
 
 }
+
+
+@media (min-width: 991px) and (max-width: 1200px){
+
+	#rewards-table th, #rewards-table td{
+	margin-top: -30px;
+  padding: 7px 10px;
+  border-bottom: 1px solid #000;
+  font-size: 19px;
+  color: #000 !important;
+  border-top: 1px solid #000;
+}
+
+	#ways-to-earn-table th, #ways-to-earn-table td{
+		margin-top: -30px;
+    padding: 14px 10px;
+    border-bottom: 1px solid #000;
+    font-size: 17.44px;
+    color: #000 !important;
+    border-top: 1px solid #000;
+	}
+
+}
+
+
+@media (min-width: 480px) and (max-width: 768px){
+
+		#rewards-table th, #rewards-table td{
+		margin-top: -30px;
+	  padding: 7px 10px;
+	  border-bottom: 1px solid #000;
+	  font-size: 13px;
+	  color: #000 !important;
+	  border-top: 1px solid #000;
+	}
+
+		#ways-to-earn-table th, #ways-to-earn-table td{
+	  margin-top: -30px;
+	  padding: 8px 10px;
+	  border-bottom: 1px solid #000;
+	  font-size: 13px;
+	  color: #000 !important;
+	  border-top: 1px solid #000;
+	}
+
+}
+
+@media(max-width:480px){
+
+		#rewards-table th, #rewards-table td{
+		margin-top: -30px;
+	  padding: 7px 10px;
+	  border-bottom: 1px solid #000;
+	  font-size: 11px;
+	  color: #000 !important;
+	  border-top: 1px solid #000;
+	}
+
+		#ways-to-earn-table th, #ways-to-earn-table td{
+	  margin-top: -30px;
+	  padding: 8px 10px;
+	  border-bottom: 1px solid #000;
+	  font-size: 11px;
+	  color: #000 !important;
+	  border-top: 1px solid #000;
+	}
+
+	.ticket-image-background-one {
+    z-index: 1;
+    padding: 0px !important;
+    margin-bottom: 10px;
+}
+
+	.ticket-image-background-two {
+    z-index: 1;
+    padding: 0px !important;
+}
+
+}
+
+
 
 
 /** FORMS OVERRIDES */
@@ -1081,7 +1159,6 @@ box-sizing: border-box;
 .pay-junction{
 	text-align: left;
 	vertical-align: :top;
-	font-family:Arial, Helvetica, sans-serif;
 	 font-size:9px;
 	  color:#666666
 }
