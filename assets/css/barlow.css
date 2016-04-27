@@ -1387,6 +1387,7 @@ address {
 	text-rendering: optimizeLegibility;
 }
 
+
 #footer-links {
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -1408,10 +1409,13 @@ address {
 }
 
 #copyrights {
-/*  background-color: #797874 !important;*/
   background: url('../images/footer-background.jpg') 50% 0% no-repeat;
   color: #9b9992 !important;
   height: 260px;
+}
+
+.footer-text-bottom{
+	margin-top: 8em;
 }
 
 .social-icon i {
