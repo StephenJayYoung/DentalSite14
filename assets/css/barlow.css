@@ -857,18 +857,90 @@ box-sizing: border-box;
 }
 
 .ticket-image-background-one{
-	background: url('../images/ticket-image-ped.jpeg') 100% 5%;
-	z-index: 1;
+/*	background: url('../images/ticket-image-ped.jpeg') 100% 5%;
+*/	z-index: 1;
 	padding: 25px;
 /*	margin: 10px;*/
 }
 
 .ticket-image-background-two{
-	background: url('../images/ticket-image-ped.jpeg') 100% 5%;
-	z-index: 1;
+/*	background: url('../images/ticket-image-ped.jpeg') 100% 5%;
+*/	z-index: 1;
 	padding: 25px;
 /*	margin-right: 3px;*/
 }
+
+.offer-ticket{
+	box-sizing: border-box;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative !important;
+    padding: 30px;
+    margin: 0;
+    border-top: 2px #000 dashed;
+    border-bottom: 2px #000 dashed;
+    background-color: #73a427;
+    background-size: cover;
+
+}
+
+.offer-ticket{box-sizing:border-box;font-family:Arial;font-size:12px;font-weight:bold;position:relative !important;padding:30px;margin:0;border-top:2px #ffffff dashed;border-bottom:2px #ffffff dashed;}
+
+.offer-ticket:before {
+    content: "";
+    position: absolute !important;
+    z-index: 100;
+    top: -2px;
+    right: 0;
+    border-right: #fff 20px solid;
+    border-bottom: #fff 20px solid;
+    -moz-border-radius: 0 0 0 50px;
+    -webkit-border-radius: 0 0 0 50px;
+    border-radius: 0 0 0 50px;
+}
+
+.offer-ticket:after {
+    content: "";
+    position: absolute !important;
+    z-index: 100;
+    top: -2px;
+    left: 0;
+    border-right: #fff 20px solid;
+    border-bottom: #fff 20px solid;
+    -moz-border-radius: 0 0 50px 0;
+    -webkit-border-radius: 0 0 50px 0;
+    border-radius: 0 0 50px 0;
+    box-sizing: border-box;
+}
+
+.offer-ticket .inner:after {
+    content: "";
+    position: absolute !important;
+    z-index: 100;
+    bottom: -2px;
+    left: 0;
+    border-right: #fff 20px solid;
+    border-bottom: #fff 20px solid;
+    -moz-border-radius: 0 50px 0 0;
+    -webkit-border-radius: 0 50px 0 0;
+    border-radius: 0 50px 0 0;
+}
+
+.offer-ticket .inner:before {
+    content: "";
+    position: absolute !important;
+    z-index: 1000;
+    bottom: -2px;
+    right: 0;
+    border-right: #fff 20px solid;
+    border-bottom: #fff 20px solid;
+    -moz-border-radius: 50px 0 0 0;
+    -webkit-border-radius: 50px 0 0 0;
+    border-radius: 50px 0 0 0;
+}
+
+
 
 #ways-to-earn-table th, #ways-to-earn-table td{
 	margin-top: -30px;
