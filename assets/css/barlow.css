@@ -287,7 +287,7 @@ nav#primary-menu.statick-sticky > ul{
 .bio-image{width: 125%; max-width: 125%;}
 
 
-@media (min-width: 992px) and (max-width:1199px){
+@media (min-width: 992px) and (max-width:1200px){
 		.girl-image {
 		    width: 85%;
 		    max-width: 85%;
@@ -302,7 +302,9 @@ nav#primary-menu.statick-sticky > ul{
 	}
 }
 
-@media (min-width: 768px) and (max-width:991px){
+
+
+@media (min-width: 765px) and (max-width:993px){
 
 		.girl-image {
 		    width: 82%;
@@ -338,7 +340,7 @@ nav#primary-menu.statick-sticky > ul{
 
 
 
-
+/*
 #doctors{padding-top:30px;background-color:#efefe9;}
 #paul-coombs{padding-top:30px;}
 #william-ross{background-color:#fff8eb; padding-top:30px;}
@@ -347,7 +349,7 @@ nav#primary-menu.statick-sticky > ul{
 #team{background-color:#b6d049;padding-top: 60px;}
 .device-xxs .col-xs-6{width:170%;display:block;float:none;max-width:200px;margin:0 auto;}
 .device-xxs hr{display:none;}
-.device-xs #team img,
+.device-xs #team img,*/
 /*.device-xxs #team img{max-width:100%; width: 100%; margin:0 auto; }*/
 /*.device-xxs #team img{margin-bottom:10px;}*/
 /*#team hr{border-top:1px solid #ddd;}*/
@@ -1197,7 +1199,12 @@ section#location {
     border-radius: 4px;
 }
 
-.fax{
+.fax-styling{
+	font-size: 19px;
+	color: #000 !important;
+}
+
+.fax-styling a {
 	font-size: 19px;
 	color: #000 !important;
 }
