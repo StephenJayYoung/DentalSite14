@@ -263,16 +263,17 @@ nav#primary-menu.statick-sticky > ul{
 
 /** TEAM OVERRIDES */
 
-/*#team{
+#team{
 	background-color: #b6d049;
 	padding-top: 40px;
 	line-height: 1.5 !important;
-}*/
-
-/** TEAM OVERRIDES */
+}
 
 	.number-one-text{
-		color: #004e00;;
+		color: #004e00;
+		font-size: 24px;
+		margin-top: 0px;
+		margin-bottom: 0px !important;
 	}
 
 .team-text{
@@ -856,6 +857,10 @@ box-sizing: border-box;
 	margin-bottom: 0px !important;
 }
 
+.rewards-subtext{
+	margin-bottom: -30px
+}
+
 .ticket-image-background-one{
 	z-index: 1;
 	padding: 25px;
@@ -1071,6 +1076,10 @@ box-sizing: border-box;
 	color: #fff;
 }
 
+.forms-header{
+	color: #fff !important;
+}
+
 #forms .button{
 	background-color: #ee19b4 !important;
 }
@@ -1082,6 +1091,12 @@ box-sizing: border-box;
 .forms-border{
 	border-right: 1px solid #fff;
 	height: 140px;
+}
+
+.forms-mobile-styles{
+	border-bottom: 1px solid #fff;
+	margin-bottom: 20px;
+	padding-bottom: 30px
 }
 
 @media (min-width: 768px) and (max-width: 991px){
