@@ -700,6 +700,13 @@ section#members .heading-block span{
   padding-bottom: 30px;
 }
 
+
+@media (max-width: 480px){
+	#reviews-wrapper{
+		max-height: 650px;
+	}
+}
+
 .birdeye-text{
 	color: #fff !important;
 }
