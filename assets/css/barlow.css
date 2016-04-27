@@ -287,7 +287,7 @@ nav#primary-menu.statick-sticky > ul{
 .bio-image{width: 125%; max-width: 125%;}
 
 
-@media (min-width: 991px) and (max-width:1199px){
+@media (min-width: 992px) and (max-width:1199px){
 		.girl-image {
 		    width: 85%;
 		    max-width: 85%;
@@ -302,13 +302,14 @@ nav#primary-menu.statick-sticky > ul{
 	}
 }
 
-@media (min-width: 768px) and (max-width:990px){
+@media (min-width: 768px) and (max-width:991px){
 
 		.girl-image {
 		    width: 82%;
 		    max-width: 82%;
 		    padding-top: 0px !important;
 		    padding-bottom: 0px !important;
+		    background-color: none !important;
 		}
 		.bio-image {
 	    width: 142%;
@@ -324,7 +325,7 @@ nav#primary-menu.statick-sticky > ul{
 	}
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 
 	.bio-image {
   	width: 100%;
@@ -545,8 +546,8 @@ section#specials {
 }
 
 .pricing-box-responsive-three{
-	padding-top: 50px !important;
-	padding-bottom: 40px !important;
+    padding-top: 40px !important;
+    padding-bottom: 31px !important;
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
@@ -565,7 +566,7 @@ section#specials {
 	}
 
 	.pricing-box-responsive-three{
-	padding-bottom: 70px !important;
+	padding-bottom: 62px !important;
 }
 
 }
@@ -605,8 +606,8 @@ section#members .heading-block span{
 }
 
 .pricing-box {
-	border-radius: 1em;
-	color: #ffffff !important;
+    border-radius: .6em;
+    color: #ffffff !important;
 }
 
 .pricingIconText{
@@ -701,11 +702,11 @@ section#members .heading-block span{
 }
 
 
-@media (max-width: 480px){
+/*@media (max-width: 480px){
 	#reviews-wrapper{
 		max-height: 650px;
 	}
-}
+}*/
 
 .birdeye-text{
 	color: #fff !important;
@@ -746,7 +747,7 @@ section#services {
 }
 
 p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
-    margin-bottom: 10px !important;
+    margin-bottom: 0px !important;
 }
 
 .services-info{
@@ -854,8 +855,8 @@ box-sizing: border-box;
 
 #rewards{
 	padding-top: 30px;
-	background-color: #73a427;
-	padding-bottom: 0px !important;
+	background-color: #b6d049;
+	padding-bottom: 20px !important;
 	margin-bottom: 0px !important;
 }
 
@@ -879,12 +880,12 @@ box-sizing: border-box;
     margin: 0;
     border-top: 2px #000 dashed;
     border-bottom: 2px #000 dashed;
-    background-color: #35c8f8;;
+    background-color: #35c8f8;
     background-size: cover;
 
 }
 
-.offer-ticket{box-sizing:border-box;font-family:'Lato', sans-serif;font-size:12px;font-weight:bold;position:relative !important;padding:30px;margin:0;border-top:2px #73a427 dashed;border-bottom:2px #73a427 dashed;}
+.offer-ticket{box-sizing:border-box;font-family:'Lato', sans-serif;font-size:12px;font-weight:bold;position:relative !important;padding:30px;margin:0;border-top:2px #b6d049 dashed;border-bottom:2px #b6d049 dashed;}
 
 .offer-ticket:before {
     content: "";
@@ -892,8 +893,8 @@ box-sizing: border-box;
     z-index: 100;
     top: -2px;
     right: 0;
-    border-right: #73a427 20px solid;
-    border-bottom: #73a427 20px solid;
+    border-right: #b6d049 20px solid;
+    border-bottom: #b6d049 20px solid;
     -moz-border-radius: 0 0 0 50px;
     -webkit-border-radius: 0 0 0 50px;
     border-radius: 0 0 0 50px;
@@ -905,8 +906,8 @@ box-sizing: border-box;
     z-index: 100;
     top: -2px;
     left: 0;
-		border-right: #73a427 20px solid;
-    border-bottom: #73a427 20px solid;
+		border-right: #b6d049 20px solid;
+    border-bottom: #b6d049 20px solid;
     -moz-border-radius: 0 0 50px 0;
     -webkit-border-radius: 0 0 50px 0;
     border-radius: 0 0 50px 0;
@@ -919,8 +920,8 @@ box-sizing: border-box;
     z-index: 100;
     bottom: -2px;
     left: 0;
-		border-right: #73a427 20px solid;
-    border-bottom: #73a427 20px solid;
+		border-right: #b6d049 20px solid;
+    border-bottom: #b6d049 20px solid;
     -moz-border-radius: 0 50px 0 0;
     -webkit-border-radius: 0 50px 0 0;
     border-radius: 0 50px 0 0;
@@ -932,8 +933,8 @@ box-sizing: border-box;
     z-index: 1000;
     bottom: -2px;
     right: 0;
-    border-right: #73a427 20px solid;
-    border-bottom: #73a427 20px solid;
+    border-right: #b6d049 20px solid;
+    border-bottom: #b6d049 20px solid;
     -moz-border-radius: 50px 0 0 0;
     -webkit-border-radius: 50px 0 0 0;
     border-radius: 50px 0 0 0;
@@ -1057,6 +1058,7 @@ box-sizing: border-box;
 	.ticket-image-background-two {
     z-index: 1;
     padding: 0px !important;
+    margin-bottom: 30px !important;
 }
 
 }
